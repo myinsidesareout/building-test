@@ -1,0 +1,26 @@
+* {
+    margin:0px;
+    box-sizing: border-box;
+}
+
+#test {
+    width: 1200px;
+
+}
+
+.tile {
+    width:100px;
+    height:100px;
+    background-image: url("/tile/1.png");
+    background-size:contain;
+    image-rendering: pixelated;
+    outline: 1px solid;
+    float: left;
+}
+
+button {
+    position:fixed;
+    bottom: 50px;
+    left: 50%;
+    right: 50%;
+}

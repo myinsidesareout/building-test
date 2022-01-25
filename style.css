@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#test {
+  width: 1200px;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  background-image: url("/tile/1.png");
+  background-size: contain;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
+  outline: 1px solid;
+  float: left;
+}
+
+button {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  right: 50%;
+}
+/*# sourceMappingURL=style.css.map */
