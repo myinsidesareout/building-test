@@ -5,7 +5,7 @@
 }
 
 #test {
-  width: 1200px;
+  margin: 0px auto;
 }
 
 .tile {
@@ -22,10 +22,9 @@
   float: left;
 }
 
-button {
-  position: fixed;
-  bottom: 50px;
-  left: 50%;
-  right: 50%;
-}
+/*button {
+    position:fixed;
+    bottom: 15px;
+    margin:0px auto;
+}*/
 /*# sourceMappingURL=style.css.map */

@@ -1,17 +1,5 @@
-function threedee() {
-    console.log("yay");
-}
-
-function cycleTile() {
-    console.log("d");
-}
-
 /* 
 things that need to be done, not necessarily in order:
-
-provide a count of columns and rows that will generate
-divs to fill
-eg: generateTile(12, 7);
 
 initialize array for all generated divs that contains 
 either tile number or tile name. need to decide, you could
@@ -24,13 +12,25 @@ wow this is just like minecraft :^)
 
 */
 
-const column = 12, row = 7;
+function addElement() {
+    var div = document.createElement("div");
+    //div.innerHTML = "Hello";
+    div.className = "tile";
+
+document.getElementById("test").appendChild(div);
+  }
+
+//const column = 1, row = 4;
 
 function generateTile(column,row) {
-    /* 
-    i assume this is how you are able to pass variables?
-    do i initialize those in or outside of scope?
-    do i allow user to change the dimensions of their
-       building or hardcode?
-    */
+
+    document.getElementById("test").style.width = 100 * column + "px";
+    document.getElementById("test").style.height = 100 * row + "px";
+
+    for (let tileCount = 0; tileCount < column * row; tileCount++) {
+        addElement();
+    }
+    
 }
+
+generateTile(12,9)
