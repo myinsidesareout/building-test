@@ -11,7 +11,7 @@
 .tile {
   width: 100px;
   height: 100px;
-  background-image: url("/tile/1.png");
+  background-image: url("/tile/0.png");
   background-size: contain;
   -ms-interpolation-mode: nearest-neighbor;
       image-rendering: -webkit-optimize-contrast;
@@ -23,8 +23,8 @@
 }
 
 /*button {
-    position:fixed;
+    position: fixed;
     bottom: 15px;
-    margin:0px auto;
+    margin: 0px auto;
 }*/
 /*# sourceMappingURL=style.css.map */
