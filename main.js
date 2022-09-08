@@ -40,7 +40,7 @@ function generateTile() {
     }
 }
 
-const gridColumn = 8, gridRow = 4;
+const gridColumn = 8, gridRow = 4; // 19 x 9 & 8 x 4
 generateTile();
 
 // function cycleTile(column, row) {
@@ -59,6 +59,6 @@ function cycleTile(totalTiles) {
         newImg = 0;
     } else {newImg +=1};
     // console.log("help"+newImg);
-    div.style.backgroundImage = "url(/tile/"+ newImg +".png)";
+    div.style.backgroundImage = "url('/tile/"+ newImg +".png')";
 
 };
