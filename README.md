@@ -1,5 +1,2 @@
 # building-test
- trying out css 3d transforms
-
-ive not done any development web or otherwise in more than two years
-just trying to get back into things
+2d grid map, will be designed standalone but intended to be pulled into a larger project
