@@ -51,7 +51,9 @@ function generateTiles() {
     }
 }
 
-const gridColumn = 8, gridRow = 4;
+// let over const cuz i want users to be able to change this in console
+let gridColumn = 8, gridRow = 4; 
+
 // generateTiles();
 
 // function cycleTile(column, row) {
