@@ -15,7 +15,7 @@ function removeElementsByClass(className){
     }
 }
 
-function generateTile() {
+function generateTiles() {
     removeElementsByClass("tile");
 
     document.getElementById("test").style.width = 100 * gridColumn + "px";
@@ -51,7 +51,7 @@ function generateTile() {
 }
 
 const gridColumn = 8, gridRow = 4;
-// generateTile();
+// generateTiles();
 
 // function cycleTile(column, row) {
 //     console.log(column + "," + row);
@@ -60,11 +60,11 @@ const gridColumn = 8, gridRow = 4;
 function cycleTile(totalTiles) {
     var div = document.getElementById(tiles[totalTiles]);
     // console.log(div);
-    // div.style.backgroundImage = "url(/tile/3.png)";
+    // div.style.backgroundImage = "url(tile/3.png)";
     var img = div.style.backgroundImage; 
     // console.log(img[11]);
     // console.log("test");
-    var newImg = Number(img.slice(11,-6));
+    var newImg = Number(img.slice(10,-6));
     if (newImg >= uniqueTiles) { 
         newImg = 0;
     } else {newImg +=1};

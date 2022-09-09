@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+}
+
 #test {
     margin: 0px auto;
 }
@@ -10,15 +15,15 @@
 .tile {
     width:100px;
     height:100px;
-    background-image: url("/tile/0.png");
+    background-image: url("tile/0.png");
     background-size: contain;
     image-rendering: pixelated;
     outline: 1px solid;
     float: left;
 }
 
-/*button {
-    position: fixed;
-    bottom: 15px;
+#buttons {
     margin: 0px auto;
-}*/
+    width: 200px;
+    height: 30px;
+}
