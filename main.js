@@ -1,6 +1,5 @@
 const tiles = [];
-// const tiles =new Array("2","3");
-var uniqueTiles = 5;
+var uniqueTiles = 5; // number of images in /tile/
 console.log(tiles);
 
 var totalTiles = -1;
