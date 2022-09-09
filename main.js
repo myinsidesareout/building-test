@@ -1,12 +1,23 @@
 const tiles = [];
-var uniqueTiles = 4;
+// const tiles =new Array("2","3");
+var uniqueTiles = 5;
+console.log(tiles);
 
 var totalTiles = -1;
 
 var rowG = -1;
 var column = 0;
 
+// https://stackoverflow.com/a/14066534
+function removeElementsByClass(className){
+    const elements = document.getElementsByClassName(className);
+    while(elements.length > 0){
+        elements[0].parentNode.removeChild(elements[0]);
+    }
+}
+
 function generateTile() {
+    removeElementsByClass("tile");
 
     document.getElementById("test").style.width = 100 * gridColumn + "px";
     document.getElementById("test").style.height = 100 * gridRow + "px";
@@ -41,7 +52,7 @@ function generateTile() {
 }
 
 const gridColumn = 8, gridRow = 4;
-generateTile();
+// generateTile();
 
 // function cycleTile(column, row) {
 //     console.log(column + "," + row);
