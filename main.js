@@ -44,7 +44,7 @@ function generateTile() {
 
             document.getElementById("test").appendChild(div);
 
-            // document.getElementById(tileId).style.backgroundImage = "url(/tile/0.png)";
+            // document.getElementById(tileId).style.backgroundImage = "url(tile/0.png)";
 
         }
     }
@@ -69,6 +69,6 @@ function cycleTile(totalTiles) {
         newImg = 0;
     } else {newImg +=1};
     // console.log("help"+newImg);
-    div.style.backgroundImage = "url(/tile/"+ newImg +".png)";
+    div.style.backgroundImage = "url(tile/"+ newImg +".png)";
 
 };

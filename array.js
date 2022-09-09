@@ -43,7 +43,7 @@ function tilesLoad(data) {
             // console.log(data[row][column]);
             const div = document.createElement("div");
             div.className = "tile";
-            div.style.backgroundImage = "url(/tile/"+data[row][column]+".png)";
+            div.style.backgroundImage = "url(tile/"+data[row][column]+".png)";
             document.getElementById("test").appendChild(div);
         }
     }
