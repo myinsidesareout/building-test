@@ -13,6 +13,7 @@ function removeElementsByClass(className){
     while(elements.length > 0){
         elements[0].parentNode.removeChild(elements[0]);
     }
+    totalTiles = -1;
 }
 
 function generateTiles() {
