@@ -12,6 +12,17 @@
     <div id="test">
       
     </div>
+    <div id="buttons">
+        <input type="number" id="row" name="row" value="4" min="1" max="9">
+        <input type="number" id="column" name="column" value="8" min="1" max="19">
+        <button onclick="generateTiles();" style="margin-right:20px">draw</button>
+        <button onclick="toggleGridlines()" style="margin-right:20px">grid</button>
+        <button onclick="tilesLoad(tilesData[0]);">1</button>
+        <button onclick="tilesLoad(tilesData[1]);">2</button>
+        <button onclick="tilesLoad(tilesData[2]);">3</button>
+        <button onclick="tilesLoad(tilesData[3]);">4</button>
+        <button onclick="tilesLoad(tilesData[4]);">5</button>
+    </div>
     
     <script src="main.js"></script>
     <script src="array.js"></script>
