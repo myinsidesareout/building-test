@@ -38,6 +38,7 @@ let tilesData = [
     [4,4,8,8,4,4,4,5,5,4,4],
     [6,6,6,6,6,6,6,6,6,6,6]
     ]
+    // i didnt like [6] so i deleted it :s
 ]
 
 console.table(tilesData);
